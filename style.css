@@ -1,0 +1,429 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+[class*="__container"]{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.header__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list li a{
+    background-color: rgb(204, 157, 113);
+    transition: .4s;
+    padding: 20px;
+}
+.nav-list li a:hover{
+    background-color: rgb(231, 231, 255);
+    color: black;
+}
+
+
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+header{ 
+    background-color: rgb(204, 157, 113);
+}
+
+.btnDonland{
+background-color: rgb(204, 157, 113);
+transition: .4s;
+padding: 20px;
+margin-right: -15px;
+}
+.btnDonland:hover{
+    background-color: rgb(171, 142, 115);
+    
+}
+
+.cart{
+    max-height: 400px;
+    width: 300px;
+    margin: 20px;
+    
+}
+.cart img{
+    width: 100%;
+    max-height: 225px;
+}
+
+.main__container{
+    display: flex;
+}
+
+.side-bar{
+    flex: 20%;
+}
+.main-body{
+    
+    flex: 80%;
+}
+.carts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.name-page__container h1{
+    margin: 20px 0;
+}
+
+.nalich{
+    display: flex;
+    justify-content: space-between;
+}
+.nalich p{
+    font-size: 18px;
+}
+.nalich input{
+    position: relative;
+    left: 10px;top: 4px;
+}
+
+.buttonType{
+    margin-top: 20px;
+    background-color: rgb(204, 157, 113);
+    transition: .4s;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.buttonType:hover{
+    background-color: rgb(219, 173, 128);
+}
+.inputAndp p{
+    font-size: 14px;
+}
+
+.type{
+    background-color: rgb(243, 243, 243);
+    
+    border-radius: 0 0 4px 4px;
+    
+}
+.type input{
+    display: flex;
+}
+.inputAndp{
+    display: flex;
+    margin: 15px 0;
+}
+
+.type input{
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+   
+}
+
+.clear{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: .4s;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border: darkgray 1px solid;
+}
+
+.confirm{
+    margin-top: 20px;
+    background-color: rgb(204, 157, 113);
+    transition: .4s;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+.type input[type="checkbox"] {
+    display: none;
+   }
+   
+   .type label {
+    color: rgb(204, 157, 113);
+    cursor: default;
+    font-weight: normal;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 15px;
+    cursor: pointer;
+   }
+   
+   .type label:before {
+    content: " ";
+    color: rgb(204, 157, 113);
+    display: inline-block;
+   /* шрифт Awesome*/
+    font: 20px/25px FontAwesome;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+    text-indent: 0px;
+    width: 25px;
+    height: 25px;
+    background: #FFF;
+    border: 1px solid rgb(204, 157, 113);
+    border-image: initial;
+    border-radius: 4px;
+    vertical-align: middle;
+   }
+   
+   .type input:checked + label:before {
+   /* глифон - галочка */
+    content: "\f00c";
+   }
+   
+   .type input:disabled + label:before {
+    background: rgb(192, 56, 56);
+    color: rgb(204, 157, 113);
+   }
+
+   .type-Kitchen{
+   display: block;
+   height: 10px;
+   transition: .4s;
+   overflow: hidden;
+   overflow-y: hidden;
+   }
+   .type-poshad{
+    display: block;
+    height: 10px;
+    transition: .4s;
+    overflow: hidden;
+    overflow-y: hidden;
+    }
+    .type-Color{
+        display: block;
+        height: 10px;
+        transition: .4s;
+        overflow: hidden;
+        overflow-y: hidden;
+        }
+   .open-type {
+    display: block;
+    height: 200px;
+    overflow: auto;
+    overflow-y: hidden;
+   }
+
+
+/*=-==========================================*/
+
+input.switch {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    height: 16px;
+    width: 30px;
+    border-radius: 1em;
+    box-shadow: inset -1em 0px 0px 0px rgba(192, 192, 192, 1);
+    background-color: white;
+    border: 1px solid rgba(192, 192, 192, 1);
+    outline: none;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  input.switch:checked {
+    box-shadow: inset 1em 0px 0px 0px rgb(204, 157, 113);
+    border: 1px solid rgb(204, 157, 113);
+  }
+
+  .noUi-connect{
+    background-color: rgb(204, 157, 113);
+  }
+
+  .noUi-target{
+    background: #FAFAFA;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+  }
+
+  .noUi-horizontal{
+    height: 5px;
+  }
+
+  .noUi-touch-area{
+    border: 2px solid rgb(204, 157, 113);
+    border-radius: 50%;
+    background-color: #FFF;
+    cursor: pointer;
+  }
+
+  .noUi-horizontal .noUi-handle{
+    top: -12px;
+    border: none;
+  }
+
+  .slider-Price{
+    margin: 30px 0;
+  }
+  .noUi-handle:after{
+    display: none;
+  }
+  .noUi-handle::before{
+    display: none;
+  }
+  .noUi-horizontal .noUi-handle{
+    right: 0;
+  }
+  .popapNewTovar{
+    z-index: 3232323;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.695);
+  }
+
+  .popapNewTovarBox{
+    border-radius: 10px;
+    max-width: 600px;
+    max-height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+.popapNewTovarBox h1{
+color: #fff;
+font-size: 30px;
+padding: 20px 30px;
+
+}
+
+.header_popapNewTovarBox{
+  background-color: coral;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.mainh2andinput{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px ;
+}
+
+.mainh2andinput input{
+  flex: 50%;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: 1px solid coral;
+}
+.mainh2andinput input:focus{
+  border: none;
+}
+.mainh2andinput h2{
+  padding: 10px;
+font-size: 18px;
+color: rgb(0, 0, 0);;
+flex: 50%;
+}
+
+.addTovar{
+  background-color: coral;
+  color: #FFF;
+  padding: 15px 20px;;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.addTovar:hover{
+  background-color: rgb(242, 97, 44);
+}
+
+.closeAddnewTovar{
+  font-size: 20px;
+  border:none;
+  cursor: pointer;
+  transition: .4s;
+  background-color: rgb(255, 117, 62);
+  padding: 20px 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.closeAddnewTovar:hover{
+  background-color: rgb(255, 255, 255);
+  color: coral;
+}
+
+.popapNewTovar{
+  display: none;
+}
+.open{
+  display: block;
+}
+
+.addNewTovar{
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(255, 117, 62);
+  transition: .4s;
+  background-color: rgb(255, 117, 62);
+  padding: 15px;
+  margin-top: -1px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.addNewTovar:hover{
+  background-color: rgb(255, 138, 92);
+}
+
+.carts{
+  justify-content: flex-end;
+}
