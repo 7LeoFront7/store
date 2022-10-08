@@ -1,9 +1,10 @@
 *{
     margin: 0;padding: 0;box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', Arial;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 .wrapper{
     display: flex;
@@ -36,9 +37,9 @@ a{
     align-items: center;
 }
 .nav-list li a{
-    background-color: rgb(204, 157, 113);
+    background-color: rgb(245, 57, 57);
     transition: .4s;
-    padding: 20px;
+    padding: 19px;
 }
 .nav-list li a:hover{
     background-color: rgb(231, 231, 255);
@@ -53,17 +54,17 @@ a{
 }
 
 header{ 
-    background-color: rgb(204, 157, 113);
+    background-color: rgb(245, 57, 57);
 }
 
 .btnDonland{
-background-color: rgb(204, 157, 113);
+background-color: rgb(245, 57, 57);
 transition: .4s;
 padding: 20px;
 margin-right: -15px;
 }
 .btnDonland:hover{
-    background-color: rgb(171, 142, 115);
+    background-color: rgb(245, 57, 57);
     
 }
 
@@ -97,7 +98,7 @@ margin-right: -15px;
 }
 
 .name-page__container h1{
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 .nalich{
@@ -114,7 +115,7 @@ margin-right: -15px;
 
 .buttonType{
     margin-top: 20px;
-    background-color: rgb(204, 157, 113);
+    background-color: rgb(245, 57, 57);
     transition: .4s;
     color: #fff;
     padding: 10px 20px;
@@ -126,7 +127,7 @@ margin-right: -15px;
 }
 
 .buttonType:hover{
-    background-color: rgb(219, 173, 128);
+    background-color: rgb(245, 57, 57);
 }
 .inputAndp p{
     font-size: 14px;
@@ -169,7 +170,7 @@ margin-right: -15px;
 
 .confirm{
     margin-top: 20px;
-    background-color: rgb(204, 157, 113);
+    background-color: rgb(245, 57, 57);
     transition: .4s;
     color: #fff;
     padding: 10px 20px;
@@ -185,7 +186,7 @@ margin-right: -15px;
    }
    
    .type label {
-    color: rgb(204, 157, 113);
+    color: rgb(0, 0, 0);
     cursor: default;
     font-weight: normal;
     line-height: 30px;
@@ -196,7 +197,7 @@ margin-right: -15px;
    
    .type label:before {
     content: " ";
-    color: rgb(204, 157, 113);
+    color: rgb(245, 57, 57);
     display: inline-block;
    /* шрифт Awesome*/
     font: 20px/25px FontAwesome;
@@ -207,7 +208,7 @@ margin-right: -15px;
     width: 25px;
     height: 25px;
     background: #FFF;
-    border: 1px solid rgb(204, 157, 113);
+    border: 1px solid rgb(245, 57, 57);
     border-image: initial;
     border-radius: 4px;
     vertical-align: middle;
@@ -220,7 +221,7 @@ margin-right: -15px;
    
    .type input:disabled + label:before {
     background: rgb(192, 56, 56);
-    color: rgb(204, 157, 113);
+    color: rgb(245, 57, 57);
    }
 
    .type-Kitchen{
@@ -272,12 +273,12 @@ input.switch {
   }
   
   input.switch:checked {
-    box-shadow: inset 1em 0px 0px 0px rgb(204, 157, 113);
-    border: 1px solid rgb(204, 157, 113);
+    box-shadow: inset 1em 0px 0px 0px rgb(245, 57, 57);
+    border: 1px solid rgb(245, 57, 57);
   }
 
   .noUi-connect{
-    background-color: rgb(204, 157, 113);
+    background-color: rgb(245, 57, 57);
   }
 
   .noUi-target{
@@ -292,7 +293,7 @@ input.switch {
   }
 
   .noUi-touch-area{
-    border: 2px solid rgb(204, 157, 113);
+    border: 2px solid rgb(245, 57, 57);
     border-radius: 50%;
     background-color: #FFF;
     cursor: pointer;
@@ -341,7 +342,7 @@ padding: 20px 30px;
 }
 
 .header_popapNewTovarBox{
-  background-color: coral;
+  background-color: rgb(245, 57, 57);
   border-radius: 10px 10px 0 0;
   display: flex;
   justify-content: space-between;
@@ -372,7 +373,7 @@ flex: 50%;
 }
 
 .addTovar{
-  background-color: coral;
+  background-color: rgb(245, 57, 57);
   color: #FFF;
   padding: 15px 20px;;
   margin: 20px;
@@ -383,7 +384,7 @@ flex: 50%;
 }
 
 .addTovar:hover{
-  background-color: rgb(242, 97, 44);
+  background-color: rgb(255, 72, 72);
 }
 
 .closeAddnewTovar{
@@ -391,7 +392,7 @@ flex: 50%;
   border:none;
   cursor: pointer;
   transition: .4s;
-  background-color: rgb(255, 117, 62);
+  background-color: rgb(245, 57, 57);
   padding: 20px 30px;
   color: rgb(255, 255, 255);
   font-weight: bold;
@@ -399,7 +400,7 @@ flex: 50%;
 
 .closeAddnewTovar:hover{
   background-color: rgb(255, 255, 255);
-  color: coral;
+  color: rgb(255, 82, 82);
 }
 
 .popapNewTovar{
@@ -412,9 +413,9 @@ flex: 50%;
 .addNewTovar{
   font-size: 20px;
   cursor: pointer;
-  border: 1px solid rgb(255, 117, 62);
+  border: 1px solid rgb(245, 57, 57);
   transition: .4s;
-  background-color: rgb(255, 117, 62);
+  background-color: rgb(245, 57, 57);
   padding: 15px;
   margin-top: -1px;
   color: rgb(255, 255, 255);
@@ -422,7 +423,7 @@ flex: 50%;
 }
 
 .addNewTovar:hover{
-  background-color: rgb(255, 138, 92);
+  background-color: rgb(255, 92, 92);
 }
 
 .carts{
@@ -502,3 +503,104 @@ flex: 50%;
   box-shadow: 2px 2px 5px 2px rgb(177, 177, 177);
   cursor: pointer;
 }
+
+.main__container{
+  background-color: #fff;
+}
+.name-page__container{
+  background-color: #fff;
+}
+
+.wrapper{
+  background: url(img/bg.jpg) repeat
+}
+
+.appheader{
+  background: url(img/appheader.jpg);
+}
+.appheader__body p{
+  padding: 5px;
+  font-family: 'Raleway', Arial;
+  font-weight: bold;
+  text-align: center;
+  color: coral;
+}
+.appheader__body p span{
+  color: red;
+}
+
+.appSubHeader{
+  background-color: #FFF;
+  
+}
+.appSubHeader a{
+  color: #000;
+}
+
+.appSubHeader__body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.appSubHeader__body a{
+  font-family: 'Raleway', sans-serif;
+}
+
+.appSubHeader-Info{
+  display: flex;
+  align-items: center;
+  
+}
+.appSubHeader-Info a{
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-right: 15px;
+  padding: 15px 0;
+}
+
+.appSubHeader-Info a.appSubHeader-noneee {
+  font-size: 16px;
+  color: rgb(75, 75, 75);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-right: 20px;
+}
+
+.appSubHeader-Info h2{
+  font-size: 15px;
+  color: rgb(85, 85, 85);
+  font-weight: normal;
+}
+
+.appSubHeader__nav{
+  display: flex;
+  margin-left: -190px;
+}
+.appSubHeader__nav a{
+  margin-right: 25px;
+  transition: .4s;
+}
+
+.appSubHeader__nav a:hover{
+  color: red;
+}
+
+.appSubHeader-Info a{
+  transition: .4s;
+}
+
+.appSubHeader-Info a:hover{
+  color: red;
+}
+
+.appSubHeader__register a{
+  transition: .4s;
+}
+
+.appSubHeader__register a:hover{
+  color: red;
+}
+
+
